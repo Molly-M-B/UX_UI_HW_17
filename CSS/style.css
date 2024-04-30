@@ -13,12 +13,7 @@ header {
   display: flex;
   flex-direction: row;
 }
-.logo ul {
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: bottom;
-}
+
 
 .inline-block {
   background-color:#FFF7E6; 
@@ -31,9 +26,10 @@ header {
 ul {
     display: flex;
     width: 100%;
-    align-content: center;
+    flex-flow: row wrap;
+    align-content: end;
     justify-content: end;
-    padding-left: 200px;
+    padding-left: 250px;
     padding-right: 20px;
     padding-bottom: 20px;
     padding-top: 45px;
@@ -45,14 +41,16 @@ ul {
 
 
 .logo {
-    width: 25%;
-    padding-left: 2%;
+    width: 40%;
+    padding-left: 20px;
     display: flex;
-    text-align: left;
+    text-align: center;
     font-family: 'Crushed';
     color: #BF896B;
     font-size: 30px;
     margin: 0;
+    height: 35px;
+
 }
 h3 {
   padding-top: 40px;
@@ -82,30 +80,36 @@ h3 {
     bottom: 20px;
     left: 20px;
     color: #FFF7E6;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 150px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 20px;
   }
 
 
 
 h1, h2 {
-    width: 80%%;
+    width: 80%;
     font-family: 'Crushed';
   }
 
 h1 {
-    font-size: 200px;
-    margin: auto;
+    font-size: 120px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+h2 {
+  margin-bottom: 0;
+  margin-top: 20px;
 }
 
 
 
 .content {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
     text-align: left;
-    padding-top: 5%;
+    padding-top: 2%;
+    width: 80%
 }
 
 
@@ -142,13 +146,13 @@ p {
 }
 
 .footerButtons {
-        width: 100%;
+        width: 80%;
         height: 70px;
         display: flex;
         align-content: center;
         justify-content: space-evenly;
-        margin-left: 75px;
-        margin-right: 75px;
+        margin-left: 10%;
+        margin-right: 10%;
        
 }
  
